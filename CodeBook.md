@@ -4,14 +4,14 @@ Variables of the tidy dataset:
 
 - subject: a number ranging from 1 to 30
 - activity: a factor with one of the following 6 activity labels
-    1 WALKING
-    2 WALKING_UPSTAIRS
-    3 WALKING_DOWNSTAIRS
-    4 SITTING
-    5 STANDING
-    6 LAYING
+    - 1 WALKING
+    - 2 WALKING_UPSTAIRS
+    - 3 WALKING_DOWNSTAIRS
+    - 4 SITTING
+    - 5 STANDING
+    - 6 LAYING
 
-The following variables represent the mean and standard deviation of all measurements taken:
+The following variables represent the average mean and standard deviation of each variable for each activity and each subject:
 
 - tBodyAcc-mean()-X 
 - tBodyAcc-mean()-Y 
