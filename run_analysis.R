@@ -48,3 +48,5 @@ names(X_y_subject_merged_mean_std) <- c(features[, 2][grepl("-mean()", features[
 tidy_dataset <- X_y_subject_merged_mean_std %>% 
   group_by(subject, activity) %>% 
   summarise_at(vars(-group_cols()), mean)
+
+write.table(tidy_dataset, file = "./data/tidy_dataset.csv")
